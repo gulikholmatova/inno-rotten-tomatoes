@@ -3,6 +3,7 @@ import "./App.css";
 import axios from "axios";
 import OneMovie from "./OneMovie";
 import fuzzysort from "fuzzysort";
+import "../node_modules/font-awesome/css/font-awesome.min.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -53,8 +54,8 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
-        <div className="searchBar">
+      <div className="mainContainer">
+        {/* <div className="searchBar">
           <div className="emptySearchBarBox" />
           <div className="searchBarBox">
             <form onSubmit={this.handleSubmit}>
@@ -69,8 +70,28 @@ class App extends React.Component {
             </form>
           </div>
           <div className="emptySearchBarBox" />
+        </div> */}
+
+        <div className="searchBarContainer" />
+        <div className="searchBarContainer">
+          <div className="emptySearchBarBox" />
+          <div className="searchBarBox">
+            <div className="search">
+              <input
+                type="text"
+                className="searchTerm"
+                onChange={this.handleChange}
+                placeholder="What movie are you looking for?"
+              />
+              <button type="submit" className="searchButton">
+                <i className="fa fa-search" />
+              </button>
+            </div>
+          </div>
+          <div className="emptySearchBarBox" />
         </div>
-        <div className="flexContainer">
+
+        <div className="filmsContainer">
           {Array.isArray(this.state.moviesData) &&
             this.state.moviesData.map((el, idx) => (
               <OneMovie movieData={el} key={idx} />

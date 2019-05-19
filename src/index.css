@@ -12,6 +12,85 @@ code {
     monospace;
 }
 
+.mainContainer {
+  /* flex-wrap: wrap; */
+  display: flex;
+  flex-direction: column;
+}
+
+.filmsContainer {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 3%;
+}
+
+.searchBarContainer {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 2%;
+}
+.searchBarBox {
+  height: 10%;
+  width: 96%;
+}
+
+.emptySearchBarBox {
+  height: 10%;
+  width: 2%;
+}
+
+/* Search bar CSS */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+} */
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: black;
+  font-size: 12px;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* OneMovie CSS */
 .movieBox {
   font-size: 12px;
   border: solid 1px;
@@ -19,24 +98,4 @@ code {
   padding: 3%;
   text-align: center;
   margin: 1%;
-}
-
-.flexContainer {
-  flex-wrap: wrap;
-  display: flex;
-  margin: 10%;
-}
-
-.searchBar {
-  flex-wrap: wrap;
-  display: flex;
-  margin: 10%;
-}
-.searchBarBox {
-  height: 10%;
-  width: 35%;
-}
-
-.emptySearchBarBox {
-  width: 40%;
 }
