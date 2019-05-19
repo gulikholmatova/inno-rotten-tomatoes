@@ -46,7 +46,6 @@ class App extends React.Component {
   }
 
   async fetchData() {
-    // Where we're fetching data from
     const { data } = await axios.get(
       `https://s3.amazonaws.com/innovid-services-data/rtpool2019/data/movieDB.json`
     );
