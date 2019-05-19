@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/inno-rotten-tomatoes/static/css/main.eda8ceaa.chunk.css",
+    "main.css": "/inno-rotten-tomatoes/static/css/main.f81a5aec.chunk.css",
     "main.js": "/inno-rotten-tomatoes/static/js/main.69660a85.chunk.js",
     "main.js.map": "/inno-rotten-tomatoes/static/js/main.69660a85.chunk.js.map",
     "runtime~main.js": "/inno-rotten-tomatoes/static/js/runtime~main.29faa1a1.js",
@@ -9,10 +9,10 @@
     "static/js/2.b915b813.chunk.js": "/inno-rotten-tomatoes/static/js/2.b915b813.chunk.js",
     "static/js/2.b915b813.chunk.js.map": "/inno-rotten-tomatoes/static/js/2.b915b813.chunk.js.map",
     "index.html": "/inno-rotten-tomatoes/index.html",
-    "precache-manifest.25f4b1c779105010a473b75665979c17.js": "/inno-rotten-tomatoes/precache-manifest.25f4b1c779105010a473b75665979c17.js",
+    "precache-manifest.4a1339f8dff4df8bf6f856c1132e171e.js": "/inno-rotten-tomatoes/precache-manifest.4a1339f8dff4df8bf6f856c1132e171e.js",
     "service-worker.js": "/inno-rotten-tomatoes/service-worker.js",
     "static/css/2.b5f9436f.chunk.css.map": "/inno-rotten-tomatoes/static/css/2.b5f9436f.chunk.css.map",
-    "static/css/main.eda8ceaa.chunk.css.map": "/inno-rotten-tomatoes/static/css/main.eda8ceaa.chunk.css.map",
+    "static/css/main.f81a5aec.chunk.css.map": "/inno-rotten-tomatoes/static/css/main.f81a5aec.chunk.css.map",
     "static/media/font-awesome.min.css": "/inno-rotten-tomatoes/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }

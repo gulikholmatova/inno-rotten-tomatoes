@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8778be0f3fffa28a730f1392f4d27da9",
+    "revision": "7ab1a804038c9f30d726edfeb712f74a",
     "url": "/inno-rotten-tomatoes/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/inno-rotten-tomatoes/static/css/2.b5f9436f.chunk.css"
   },
   {
-    "revision": "1972ef794410b6dff93e",
-    "url": "/inno-rotten-tomatoes/static/css/main.eda8ceaa.chunk.css"
+    "revision": "4ba8fc2d113fb4159af3",
+    "url": "/inno-rotten-tomatoes/static/css/main.f81a5aec.chunk.css"
   },
   {
     "revision": "8e2b5f13357fead5453f",
     "url": "/inno-rotten-tomatoes/static/js/2.b915b813.chunk.js"
   },
   {
-    "revision": "1972ef794410b6dff93e",
+    "revision": "4ba8fc2d113fb4159af3",
     "url": "/inno-rotten-tomatoes/static/js/main.69660a85.chunk.js"
   },
   {

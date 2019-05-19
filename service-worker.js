@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/inno-rotten-tomatoes/precache-manifest.25f4b1c779105010a473b75665979c17.js"
+  "/inno-rotten-tomatoes/precache-manifest.4a1339f8dff4df8bf6f856c1132e171e.js"
 );
 
 self.addEventListener('message', (event) => {
